@@ -28,13 +28,13 @@ include "db_conn.php";
 			}
 			else
 			{   
-				 echo("User Name is required");
+				 echo("Invalid");
 	             exit();
 			}
 		}
 		else
 		{
-		  echo ("Invalid");
+		  echo ("Invalid username or password");
 		  }
 		mysqli_close($conn);
 	 }
